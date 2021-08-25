@@ -60,7 +60,7 @@ Use this shortcode to display the current year.
 
 `starter-theme` requires the following dependencies:
 
-- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/) or [Node.js](https://nodejs.org/)
 - [Composer](https://getcomposer.org/)
 
 ### Setup
@@ -69,11 +69,11 @@ To use this theme you need to install the necessary Node.js and Composer depende
 
 ```sh
 $ composer install
-$ npm install
+$ yarn install
 ```
 
 ### Available CLI commands
 
-- `npm run compile:css` : compiles SASS files to css.
-- `npm run watch` : watches all SASS files and recompiles them to css when they change.
-- `npm run bundle` : generates a .zip archive for distribution, excluding development and system files.
+- `yarn compile:css` : compiles SASS files to css.
+- `yarn watch` : watches all SASS files and recompiles them to css when they change.
+- `yarn bundle` : generates a .zip archive for distribution, excluding development and system files.
