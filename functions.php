@@ -7,7 +7,7 @@
  * @package Starter_Theme
  */
 
-define( 'GK_THEME_DIR', get_template_directory() );
+define( 'STARTER_THEME_DIR', get_template_directory() );
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
@@ -28,11 +28,11 @@ if ( ! function_exists( 'starter_theme_setup' ) ) :
 		\Carbon_Fields\Carbon_Fields::boot();
 
 		// Add custom field options to the theme
-		function gk_add_custom_options_to_theme() {
-			include_once(GK_THEME_DIR . '/custom-options/post-meta.php');
-			include_once(GK_THEME_DIR . '/custom-options/theme-options.php');
+		function starter_theme_add_custom_options_to_theme() {
+			include_once(STARTER_THEME_DIR . '/custom-options/post-meta.php');
+			include_once(STARTER_THEME_DIR . '/custom-options/theme-options.php');
 		}
-		add_action( 'carbon_fields_register_fields', 'gk_add_custom_options_to_theme' );
+		add_action( 'carbon_fields_register_fields', 'starter_theme_add_custom_options_to_theme' );
 
 		/*
 		 * Make theme available for translation.
@@ -167,12 +167,12 @@ add_action( 'wp_enqueue_scripts', 'starter_theme_scripts' );
 /**
  * Attach custom options for the theme
  */
-function gk_custom_options() {
-	include_once( GK_THEME_DIR . '/custom-options/post-types.php' );
-	include_once( GK_THEME_DIR . '/custom-options/taxonomies.php' );
-	include_once( GK_THEME_DIR . '/custom-options/shortcodes.php' );
+function starter_theme_custom_options() {
+	include_once( STARTER_THEME_DIR . '/custom-options/post-types.php' );
+	include_once( STARTER_THEME_DIR . '/custom-options/taxonomies.php' );
+	include_once( STARTER_THEME_DIR . '/custom-options/shortcodes.php' );
 }
-add_action( 'init', 'gk_custom_options', 0 );
+add_action( 'init', 'starter_theme_custom_options', 0 );
 
 /**
  * Include file from inc directory

@@ -1,18 +1,18 @@
 <?php
 
-// register_post_type( 'gk_custom_taxonomy', array(
+// register_post_type( 'starter_theme_custom_taxonomy', array(
 // 	'labels' => array(
-// 		'name'               => __( 'Custom Taxonomies', 'gk' ),
-// 		'singular_name'      => __( 'Custom Taxonomy', 'gk' ),
-// 		'add_new'            => __( 'Add New', 'gk' ),
-// 		'add_new_item'       => __( 'Add New Custom Taxonomy', 'gk' ),
-// 		'view_item'          => __( 'View Custom Taxonomy', 'gk' ),
-// 		'edit_item'          => __( 'Edit Custom Taxonomy', 'gk' ),
-// 		'new_item'           => __( 'New Custom Taxonomy', 'gk' ),
-// 		'view_item'          => __( 'View Custom Taxonomy', 'gk' ),
-// 		'search_items'       => __( 'Search Custom Taxonomies', 'gk' ),
-// 		'not_found'          => __( 'Not Found Custom Taxonomies', 'gk' ),
-// 		'not_found_in_trash' => __( 'Not Found Custom Taxonomies In Trash', 'gk' ),
+// 		'name'               => __( 'Custom Taxonomies', 'starter-theme' ),
+// 		'singular_name'      => __( 'Custom Taxonomy', 'starter-theme' ),
+// 		'add_new'            => __( 'Add New', 'starter-theme' ),
+// 		'add_new_item'       => __( 'Add New Custom Taxonomy', 'starter-theme' ),
+// 		'view_item'          => __( 'View Custom Taxonomy', 'starter-theme' ),
+// 		'edit_item'          => __( 'Edit Custom Taxonomy', 'starter-theme' ),
+// 		'new_item'           => __( 'New Custom Taxonomy', 'starter-theme' ),
+// 		'view_item'          => __( 'View Custom Taxonomy', 'starter-theme' ),
+// 		'search_items'       => __( 'Search Custom Taxonomies', 'starter-theme' ),
+// 		'not_found'          => __( 'Not Found Custom Taxonomies', 'starter-theme' ),
+// 		'not_found_in_trash' => __( 'Not Found Custom Taxonomies In Trash', 'starter-theme' ),
 // 	),
 // 	'public'                => true,
 // 	'exclude_from_search'   => false,
