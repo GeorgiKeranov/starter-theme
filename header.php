@@ -26,7 +26,31 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'starter-theme' ); ?></a>
 
 	<header class="header">
-		<h2>Header</h2>
+		<div class="container">
+			<div class="header__flex">
+				<div class="header__logo">
+					<?php starter_theme_the_logo() ?>
+				</div><!-- /.header__logo -->
+
+				<div class="header__menu">
+					<?php if ( has_nav_menu( 'menu' ) ) {
+						wp_nav_menu( array(
+							'theme_location' => 'menu',
+							'container' => 'nav',
+							'container_class' => 'nav nav--header'
+						) );
+					} ?>
+				</div><!-- /.header__menu -->
+
+				<div class="header__menu-toggle">
+					<div></div>
+
+					<div></div>
+
+					<div></div>
+				</div><!-- /.header__menu-toggle -->
+			</div><!-- /.header__flex -->
+		</div><!-- /.container -->
 	</header><!-- /.header -->
 
 	<main class="main">
