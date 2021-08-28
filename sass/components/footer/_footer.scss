@@ -1,9 +1,25 @@
 .footer {
+	overflow: hidden;
 	margin-top: auto;
 	background-color: $color-black;
 	color: $color-white;
+	padding: 10px 0 0;
+
+	.footer__main {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #fff;
+	}
+
+	.footer__bottom {
+
+	}
 
 	.copyright {
+		margin: 0;
+		padding: 10px 0;
 		text-align: center;
 	}
 }
