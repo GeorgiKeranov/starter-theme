@@ -63,7 +63,7 @@ if ( ! function_exists( 'starter_theme_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus(
 			array(
-				'menu-1' => esc_html__( 'Primary', 'starter-theme' ),
+				'menu' => esc_html__( 'Menu', 'starter-theme' ),
 			)
 		);
 
@@ -173,6 +173,12 @@ function starter_theme_custom_options() {
 	include_once( STARTER_THEME_DIR . '/custom-options/shortcodes.php' );
 }
 add_action( 'init', 'starter_theme_custom_options', 0 );
+
+/**
+ * Add static pages, menus, custom field data in the database on the theme install.
+ * This is done to save time with creating manually the same pages and menus every time.
+ */
+require get_template_directory() . '/inc/setup-static-data-in-database.php';
 
 /**
  * Load dynamically logo for the theme
