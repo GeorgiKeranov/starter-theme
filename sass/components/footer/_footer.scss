@@ -3,7 +3,7 @@
 	margin-top: auto;
 	background-color: $color-black;
 	color: $color-white;
-	padding: 10px 0 0;
+	padding: 20px 0 0;
 
 	.footer__main {
 		display: flex;
@@ -13,13 +13,40 @@
 		border-bottom: 1px solid #fff;
 	}
 
-	.footer__bottom {
-
-	}
-
 	.copyright {
 		margin: 0;
-		padding: 10px 0;
+		padding: 15px 0;
 		text-align: center;
+
+		p {
+			color: #ddd;
+		}
+	}
+
+	@include breakpoint(mobile) {
+		text-align: center;
+
+		.logo {
+			margin: 0 auto 20px;
+		}
+
+		.footer__main {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.footer__logo,
+		.footer__menu,
+		.footer__socials {
+			width: 100%;
+		}
+
+		.footer__menu {
+			margin-bottom: 20px;
+		}
+
+		.socials {
+			justify-content: center;
+		}
 	}
 }
