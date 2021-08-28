@@ -1,3 +1,9 @@
 .footer {
 	margin-top: auto;
+	background-color: $color-black;
+	color: $color-white;
+
+	.copyright {
+		text-align: center;
+	}
 }
