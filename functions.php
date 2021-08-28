@@ -175,7 +175,6 @@ function starter_theme_custom_options() {
 add_action( 'init', 'starter_theme_custom_options', 0 );
 
 /**
- * Include file from inc directory
+ * Load dynamically logo for the theme
  */
-// require get_template_directory() . '/inc/example.php';
-
+require get_template_directory() . '/inc/logo-dynamic.php';
