@@ -1,0 +1,18 @@
+TODO:
+
+1. Add cli command to create new wordpress installation from this theme with command and these parameters:
+	- Theme Name - Starter Theme, Theme Slug - starter-theme, Theme Prefix - starter_theme (or just theme name and create the other two from that)
+	- Database name
+	- Database user
+	- Database password
+	- Installation folder
+
+	Commands to perform:
+		- Download latest wordpress
+		- Add wp-config with the given database credentials
+		- Remove default themes and leave only twentytwenty
+		- Add this theme to the installed wordpress
+		- Install package.json and composer.json dependencies
+		- Run compile script from package.json
+
+2. After database installation from wp-admin tool make this theme the default one
