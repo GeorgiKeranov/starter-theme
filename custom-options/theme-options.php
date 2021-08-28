@@ -10,8 +10,10 @@ Container::make( 'theme_options', __( 'Theme Options', 'starter-theme' ) )
 			->add_fields( array(
 				Field::make( 'image', 'logo', __( 'Logo', 'crb' ) )
 					->set_help_text( __( 'Recommended logo size is 64x64 px', 'starter-theme' ) )
+					->set_required( true )
 					->set_width( 50 ),
-				Field::make( 'text', 'link', __( 'Link', 'crb' ) ),
+				Field::make( 'text', 'link', __( 'Link', 'crb' ) )
+					->set_required( true ),
 			) ),
 	) )
 	->add_tab( __( 'Footer', 'starter-theme' ), array(
