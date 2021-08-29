@@ -178,9 +178,19 @@ add_action( 'init', 'starter_theme_custom_options', 0 );
  * Add static pages, menus, custom field data in the database on the theme install.
  * This is done to save time with creating manually the same pages and menus every time.
  */
-require get_template_directory() . '/inc/setup-static-data-in-database.php';
+require STARTER_THEME_DIR . '/inc/setup-static-data-in-database.php';
 
 /**
  * Load dynamically logo for the theme
  */
-require get_template_directory() . '/inc/logo-dynamic.php';
+require STARTER_THEME_DIR . '/inc/logo-dynamic.php';
+
+/**
+ * Disable guttenberg editor for certain templates
+ */
+require STARTER_THEME_DIR . '/inc/disable-gutenberg.php';
+
+/**
+ * Disable classic editor for certain templates
+ */
+require STARTER_THEME_DIR . '/inc/disable-classic-editor.php';
