@@ -1,6 +1,6 @@
 # Starter Theme
 
-Custom Wordpress starter theme modified from unserscores theme.
+Custom WordPress theme built for the easier start of new projects
 
 Starter Theme is based on Underscores https://underscores.me/ by Automattic.
 
@@ -14,7 +14,7 @@ Starter Theme is based on Underscores https://underscores.me/ by Automattic.
 - [Installation](#installation)
 
 ## Technologies used
-- Wordpress
+- WordPress
 - PHP
 - JavaScript
 - CSS3
@@ -23,7 +23,7 @@ Starter Theme is based on Underscores https://underscores.me/ by Automattic.
 - jQuery
 - Carbon Fields (Custom fields like ACF plugin but specifically for developers)
 - MySQL
-- WebPack
+- Webpack
 
 ## Theme Functionalities
 
