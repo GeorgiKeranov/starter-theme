@@ -23,6 +23,7 @@ Starter Theme is based on Underscores https://underscores.me/ by Automattic.
 - jQuery
 - Carbon Fields (Custom fields like ACF plugin but specifically for developers)
 - MySQL
+- WebPack
 
 ## Theme Functionalities
 
@@ -74,6 +75,9 @@ $ yarn install
 
 ### Available CLI commands
 
-- `yarn compile:css` : compiles SASS files to css.
-- `yarn watch` : watches all SASS files and recompiles them to css when they change.
+- `yarn compile:css` : compiles SASS files to CSS.
+- `yarn compile:js` : compiles JavaScript files to one bundle file.
+- `yarn compile` : compiles both SASS and JavaScript files to one CSS and one JavaScript file.
+- `yarn watch:css` : watches all SASS files and recompiles them to CSS when they change.
+- `yarn watch:js` : watches all JavaScript files and recompiles them to one bundle file when they change.
 - `yarn bundle` : generates a .zip archive for distribution, excluding development and system files.
