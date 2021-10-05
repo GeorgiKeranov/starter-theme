@@ -1,6 +1,6 @@
 # Starter Theme
 
-Custom Wordpress starter theme modified from unserscores theme.
+Custom Wordpress starter theme modified for easier start of new custom themes.
 
 Starter Theme is based on Underscores https://underscores.me/ by Automattic.
 
@@ -23,26 +23,29 @@ Starter Theme is based on Underscores https://underscores.me/ by Automattic.
 - jQuery
 - Carbon Fields (Custom fields like ACF plugin but specifically for developers)
 - MySQL
+- Webpack
 
 ## Theme Functionalities
 
 ### Header
 
-Header description.
+Header description.\
+Logo can be changed from Admin Panel -> Appearance -> Customize -> Site Identity -> Logo.\
 
 ---------------------
 
 ### Footer
 
-Footer description.
+Footer description.\
+Logo can be changed from Admin Panel -> Appearance -> Customize -> Site Identity -> Logo.\
 
 ---------------------
 
 ### Page Templates
 
-#### Template Name
+#### Page Builder
 
-Template description.
+Page Builder template contains several sections that can be added and ordered as you wish.
 
 ---------------------
 
@@ -74,6 +77,7 @@ $ yarn install
 
 ### Available CLI commands
 
-- `yarn compile:css` : compiles SASS files to css.
-- `yarn watch` : watches all SASS files and recompiles them to css when they change.
+- `yarn watch:css` : watches all SASS and recompiles the bundle css file when they change.
+- `yarn watch:js` : watches all JavaScript and recompiles the bundle js file when they change.
+- `yarn compile` : compiles all SASS and JavaScript files to one css and one js file.
 - `yarn bundle` : generates a .zip archive for distribution, excluding development and system files.
