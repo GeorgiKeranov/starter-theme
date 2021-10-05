@@ -1,6 +1,6 @@
 # Starter Theme
 
-Custom Wordpress starter theme modified for easier start of new custom themes.
+Custom Wordpress starter theme built for a easier start of new custom themes.
 
 Starter Theme is based on Underscores https://underscores.me/ by Automattic.
 
@@ -14,7 +14,7 @@ Starter Theme is based on Underscores https://underscores.me/ by Automattic.
 - [Installation](#installation)
 
 ## Technologies used
-- Wordpress
+- WordPress
 - PHP
 - JavaScript
 - CSS3
@@ -77,7 +77,9 @@ $ yarn install
 
 ### Available CLI commands
 
-- `yarn watch:css` : watches all SASS and recompiles the bundle css file when they change.
-- `yarn watch:js` : watches all JavaScript and recompiles the bundle js file when they change.
-- `yarn compile` : compiles all SASS and JavaScript files to one css and one js file.
+- `yarn compile:css` : compiles SASS files to CSS.
+- `yarn compile:js` : compiles JavaScript files to one bundle file.
+- `yarn compile` : compiles both SASS and JavaScript files to one CSS and one JavaScript file.
+- `yarn watch:css` : watches all SASS files and recompiles them to CSS when they change.
+- `yarn watch:js` : watches all JavaScript files and recompiles them to one bundle file when they change.
 - `yarn bundle` : generates a .zip archive for distribution, excluding development and system files.
