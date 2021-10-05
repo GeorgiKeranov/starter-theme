@@ -157,10 +157,6 @@ function starter_theme_scripts() {
 	wp_style_add_data( 'starter-theme-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'starter-theme-script', get_template_directory_uri() . '/scripts.js', array( 'jquery' ), _S_VERSION, true );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
 }
 add_action( 'wp_enqueue_scripts', 'starter_theme_scripts' );
 
@@ -194,3 +190,8 @@ require STARTER_THEME_DIR . '/inc/disable-gutenberg.php';
  * Disable classic editor for certain templates
  */
 require STARTER_THEME_DIR . '/inc/disable-classic-editor.php';
+
+/**
+ * Add customizations on admin pages
+ */
+require STARTER_THEME_DIR . '/inc/admin-page-customization.php';
