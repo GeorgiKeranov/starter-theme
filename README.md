@@ -4,6 +4,19 @@ Custom Wordpress starter theme built for a easier start of new custom themes.
 
 Starter Theme is based on Underscores https://underscores.me/ by Automattic.
 
+## Why this theme makes the building of new custom theme easier
+- Theme has installed SASS and default SASS styles
+- Theme has installed webpack to import javascript files from packages and bundle all of the javascript files in one minified
+- Theme has implemented logic to add a static data in the database like pages, menus or custom fields on activation of the theme
+- Theme has code for custom post types, custom taxonomies and custom fields
+- Theme has page builder template and example section in it
+- Theme has code to disable gutenberg or classis editor for templates you want
+- Theme has a custom fields for socials and template part to include the socials wherever you want
+- Theme has a custom css file named "admin-login.css" that you can change the look of the login page
+- Theme has a default header with logo and navigation that are responsive with expandable menu on mobile
+- Theme logo can be changed from the default settings in WordPress - Admin Panel -> Appearance -> Customize -> Site Identity -> Logo
+- Theme has a default footer with logo, menu and copyright
+
 ## Table of contents
 - [Technologies used](#technologies-used)
 - [Theme Functionalities](#theme-functionalities)
