@@ -30,14 +30,14 @@ Starter Theme is based on Underscores https://underscores.me/ by Automattic.
 ### Header
 
 Header description.\
-Logo can be changed from Admin Panel -> Appearance -> Customize -> Site Identity -> Logo.\
+Logo can be changed from Admin Panel -> Appearance -> Customize -> Site Identity -> Logo.
 
 ---------------------
 
 ### Footer
 
 Footer description.\
-Logo can be changed from Admin Panel -> Appearance -> Customize -> Site Identity -> Logo.\
+Logo can be changed from Admin Panel -> Appearance -> Customize -> Site Identity -> Logo.
 
 ---------------------
 
@@ -68,7 +68,7 @@ Use this shortcode to display the current year.
 
 ### Setup
 
-To use this theme you need to install the necessary Node.js and Composer dependencies :
+To use this theme you need to install the necessary Node.js and Composer dependencies:
 
 ```sh
 $ composer install
