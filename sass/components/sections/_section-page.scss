@@ -1,6 +1,5 @@
 .section-page {
 	padding: 60px 0;
-	color: $color-white;
 
 	.section__title {
 		h1 {
@@ -22,13 +21,12 @@
 
 	.wp-block-separator {
 		border: 0;
-		background-color: $color-white;
 		height: 2px;
 	}
 
 	.wp-block-quote {
 		margin: 0;
 		padding-left: 20px;
-		border-left: 4px solid $color-white;
+		border-left: 4px solid;
 	}
 }
