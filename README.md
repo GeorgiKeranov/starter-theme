@@ -25,6 +25,7 @@ Starter Theme is based on Underscores https://underscores.me/ by Automattic.
   - [Page Templates](#page-templates)
   - [Shortcodes](#shortcodes)
 - [Installation](#installation)
+- [Desgin Images](#design-images)
 
 ## Technologies used
 - WordPress
@@ -96,3 +97,9 @@ $ yarn install
 - `yarn watch:css` : watches all SASS files and recompiles them to CSS when they change.
 - `yarn watch:js` : watches all JavaScript files and recompiles them to one bundle file when they change.
 - `yarn bundle` : generates a .zip archive for distribution, excluding development and system files.
+
+## Design Images
+![home](https://user-images.githubusercontent.com/22518317/136269429-1e15c8b9-db52-4beb-bb22-d12a2779b504.png)
+![sample-page](https://user-images.githubusercontent.com/22518317/136269444-6f1b89b9-4181-4b2d-a96c-b5b19b216da3.png)
+
+
